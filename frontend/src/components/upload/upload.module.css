@@ -1,0 +1,10 @@
+.dialogContent {
+  min-height: 400px;
+  min-width: 600px; /* Adjust as needed */
+}
+.flexContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-direction: column;
+}

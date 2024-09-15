@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: row;
+
+  gap: 5px;
+
+  overflow-x: hidden;
+  height: 100vh;
+}
+.grow {
+  margin-left: -110px;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}

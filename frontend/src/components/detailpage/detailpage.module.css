@@ -1,0 +1,10 @@
+.Container {
+  display: flex;
+  flex-direction: row;
+}
+.content1 {
+  flex: 3;
+}
+.content2 {
+  flex: 2;
+}

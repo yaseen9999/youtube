@@ -1,0 +1,24 @@
+.cardmedia:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+.container {
+  overflow-x: hidden;
+  margin-top: 5px;
+  height: 100vh;
+}
+.container::-webkit-scrollbar {
+  width: 8px;
+  background-color: #f1f1f1;
+}
+.container::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+.cardcontent {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  color: #888;
+}

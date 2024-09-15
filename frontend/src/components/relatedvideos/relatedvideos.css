@@ -1,0 +1,22 @@
+.card-img {
+  height: 100px; /* Adjust height as needed */
+  object-fit: contain; /* Maintain aspect ratio while covering the area */
+  width: 100%; /* Ensure the image takes full width */
+}
+.container {
+  margin-top: 20px;
+}
+.card-body {
+  padding: 0.5rem;
+}
+
+.card-title {
+  margin-bottom: 1px; /* Reduce space below the title */
+}
+
+.card-text {
+  margin-bottom: 1px; /* Reduce space between text elements */
+}
+.container:hover {
+  cursor: pointer;
+}
